@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestions du tache</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <h1>Gestions du tache </h1>
+    <div id="task-form">
+        <input type="text" id="title" placeholder="Titre">
+        <input type="text" id="description" placeholder="Description">
+        <input type="date" id="deadline">
+        <select id="priority">
+            <option value="Faible">Faible</option>
+            <option value="Moyenne">Moyenne</option>
+            <option value="Forte">Forte</option>
+        </select>
+        <button id="add-task">Ajouter</button>
+        <button id="sort-tasks">Trier par date limite</button>
+
+    </div>
+    <ul id="task-list"></ul>
+
+    <script src="code.js"></script>
+</body>
+</html>
